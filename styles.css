@@ -516,10 +516,6 @@ nav {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /* .portfolio__container :is(.section__header, .section__description) {
-    text-align: left;
-    margin-inline-start: unset;
-  } */
 
   .portfolio__grid {
     grid-template-columns: repeat(3, 1fr);
