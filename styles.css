@@ -184,6 +184,7 @@ nav {
   max-width: 680px;
   margin-inline: auto;
   border-radius: 25rem;
+  margin-top: -234px;
 }
 
 .header__image::after {
