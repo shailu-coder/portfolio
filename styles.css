@@ -474,8 +474,7 @@ nav {
   }
 
   .header__container {
-/*     padding-top: 5rem; */
-    margin-top: 162px;
+    padding-top: 5rem;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
   }
@@ -526,4 +525,27 @@ nav {
   .portfolio__banner {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile styles */
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+    .header__container {
+        margin-top: 162px;
+        padding-top: 8rem; /* Optional, since it's already in the desktop styles */
+        display: grid;
+        gap: 2rem;
+        isolation: isolate;
+    }
 }
